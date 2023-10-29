@@ -1,0 +1,256 @@
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Devs CandyCorn", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "16 Candy HUb",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "Hub Candy"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+OrionLib:MakeNotification({
+	Name = "Hakdog!",
+	Content = "only 17 Candies still on develop??",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+Tab:AddButton({
+	Name = "1#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(136.992249, 23.0349369, -201.187103, -0.983132303, -3.97917344e-09, -0.18289569, -1.09873632e-09, 1, -1.58504019e-08, 0.18289569, -1.53820885e-08, -0.983132303) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "2#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(392.700562, 11.7876358, 118.371796, 0.802430809, -3.33120709e-09, 0.596745193, 2.24077379e-09, 1, 2.56917243e-09, -0.596745193, -7.24412086e-10, 0.802430809) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "3#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(393.520386, 100.584167, 117.090469, 0.91370219, -1.39311149e-08, -0.406384468, 1.29730777e-08, 1, -5.11236475e-09, 0.406384468, -6.00878181e-10, 0.91370219) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+
+Tab:AddButton({
+	Name = "4#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.381302, -88.872345, -277.227112, -0.0646845847, -5.27931405e-08, 0.997905731, -3.92648536e-09, 1, 5.2649419e-08, -0.997905731, -5.12656639e-10, -0.0646845847) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "5#!",
+	game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(305.713867, 66.0552979, -2.95004463, 0.369617134, -1.61401754e-08, 0.929184139, -2.60097046e-08, 1, 2.7716581e-08, -0.929184139, -3.44123272e-08, 0.369617134) 
+      		
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "6#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-176.350723, 94.8158875, 0.309779704, -0.930633903, 2.41157796e-08, 0.365951568, 1.41797276e-08, 1, -2.98390432e-08, -0.365951568, -2.25801315e-08, -0.930633903)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "7#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(88.5279999, 113.917244, 271.323395, -0.984219491, 0.068787314, -0.163034469, -3.39469652e-09, 0.921349645, 0.388734818, 0.176951781, 0.382600397, -0.906810343)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "8#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(380.939514, 141.790939, -150.83432, 0.177552298, -5.63933931e-08, 0.984111369, -8.18032859e-08, 1, 7.20627327e-08, -0.984111369, -9.32984463e-08, 0.177552298) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "9#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.356049, 82.8460388, 155.799484, 0.00436573382, 1.15709859e-07, 0.999990463, -3.50932547e-11, 1, -1.15710804e-07, -0.999990463, 4.7006965e-10, 0.00436573382) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "10#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(142.998657, 119.004951, -351.657745, -0.808622956, 3.08053778e-08, 0.588327229, 4.29108304e-08, 1, 6.61758071e-09, -0.588327229, 3.05967376e-08, -0.808622956) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "11!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(142.998657, 119.004951, -351.657745, -0.808622956, 3.08053778e-08, 0.588327229, 4.29108304e-08, 1, 6.61758071e-09, -0.588327229, 3.05967376e-08, -0.808622956) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "12#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.0450211, -87.8872681, -2.08485556, 0.992025375, -1.08478005e-07, -0.126038373, 1.0989357e-07, 1, 4.27809521e-09, 0.126038373, -1.80947861e-08, 0.992025375)
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "13#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(452.404755, -22.162405, -199.081223, 0.0255415663, 5.29003792e-08, -0.999673784, -4.49711095e-08, 1, 5.17686374e-08, 0.999673784, 4.36341843e-08, 0.0255415663) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "14#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(21.625473, 71.999939, -149.441559, -0.77681613, -3.12859179e-08, -0.629727483, 1.56164877e-08, 1, -6.89457877e-08, 0.629727483, -6.33923278e-08, -0.77681613) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "15#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(369.050995, 417.942627, 299.812164, -0.811468124, -3.36449943e-08, 0.58439672, -5.11000877e-08, 1, -1.33831959e-08, -0.58439672, -4.07227603e-08, -0.811468124) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "16#!",
+	Callback = function()
+      		game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(78.3105164, 208.73999, -673.231445, -0.747718453, -2.90202706e-08, -0.664015889, -5.93135541e-10, 1, -4.30362768e-08, 0.664015889, -3.17851665e-08, -0.747718453) 
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
